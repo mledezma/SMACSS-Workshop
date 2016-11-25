@@ -1,4 +1,4 @@
-h1, h2, p, li, button {
+h1, h2, p, li, button, div {
   margin: 0;
   padding: 0; }
 
@@ -19,13 +19,34 @@ h1, h2, p, li, button {
   background-color: #57c5a0;
   box-sizing: border-box;
   color: #fff;
-  float: left;
   font-size: 13px;
   font: bold 13px 'Arial', sans-serif;
   height: 70px;
   padding: 27px 0;
   text-align: center;
   width: 70px; }
+
+.big-desc {
+  float: right;
+  padding: 70px 40px 90px 0;
+  width: 40%; }
+
+.big-desc h2 {
+  font-size: 40px;
+  font-weight: normal; }
+
+.big-desc > p {
+  font-size: 20px; }
+
+.tools {
+  margin-top: 15px; }
+  .tools button {
+    background-color: #fafaf9;
+    border: none;
+    height: 42px;
+    width: 42px; }
+  .tools img {
+    width: 100%; }
 
 .slider {
   background-image: url("../img/slider1.jpg");
