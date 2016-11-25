@@ -1,4 +1,9 @@
 @import "../modules/m-price";
 @import "../modules/m-big-desc";
 @import "../modules/m-tools";
-@import "../modules/m-slider-controls"
+@import "../modules/m-slider-controls";
+
+.slider {
+    background-image: url('../img/slider1.jpg');
+    background-repeat: no-repeat;
+}
