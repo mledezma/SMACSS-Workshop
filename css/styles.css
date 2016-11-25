@@ -1,49 +1,20 @@
 /*
-Error: File to import not found or unreadable: ../modules/l-vendors.
-       Load path: C:/Users/marco/Desktop/Web/Workshop SMACSS/sass
-        on line 1 of C:/Users/marco/Desktop/Web/Workshop SMACSS/sass/layout/_l-prefooter.scss
-        from line 1 of C:/Users/marco/Desktop/Web/Workshop SMACSS/sass/layout/_l-footer.scss
-        from line 5 of C:/Users/marco/Desktop/Web/Workshop SMACSS/sass/layout/_layout.scss
-        from line 1 of C:\Users\marco\Desktop\Web\Workshop SMACSS\sass\styles.scss
+Error: File to import not found or unreadable: helpers.scss.
+       Load path: C:/Users/marco/Desktop/Web/SMACSS-Workshop/sass
+        on line 2 of C:/Users/marco/Desktop/Web/SMACSS-Workshop/sass/base/_base.scss
+        from line 1 of C:\Users\marco\Desktop\Web\SMACSS-Workshop\sass\styles.scss
 
-1: @import "layout/layout";
+1: @import "base/base.scss";
+2: @import "layout/layout";
 
 Backtrace:
-C:/Users/marco/Desktop/Web/Workshop SMACSS/sass/layout/_l-prefooter.scss:1
-C:/Users/marco/Desktop/Web/Workshop SMACSS/sass/layout/_l-footer.scss:1
-C:/Users/marco/Desktop/Web/Workshop SMACSS/sass/layout/_layout.scss:5
-C:\Users\marco\Desktop\Web\Workshop SMACSS\sass\styles.scss:1
+C:/Users/marco/Desktop/Web/SMACSS-Workshop/sass/base/_base.scss:2
+C:\Users\marco\Desktop\Web\SMACSS-Workshop\sass\styles.scss:1
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:66:in `rescue in import'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:45:in `import'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:28:in `imported_file'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:37:in `css_import?'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:315:in `block (2 levels) in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:315:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:315:in `block in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `block in with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:315:in `block (2 levels) in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:315:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:315:in `block in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `block in with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
@@ -89,4 +60,4 @@ C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: ../modules/l-vendors.\A        Load path: C:/Users/marco/Desktop/Web/Workshop SMACSS/sass\A         on line 1 of C:/Users/marco/Desktop/Web/Workshop SMACSS/sass/layout/_l-prefooter.scss\A         from line 1 of C:/Users/marco/Desktop/Web/Workshop SMACSS/sass/layout/_l-footer.scss\A         from line 5 of C:/Users/marco/Desktop/Web/Workshop SMACSS/sass/layout/_layout.scss\A         from line 1 of C:\Users\marco\Desktop\Web\Workshop SMACSS\sass\styles.scss\A \A 1: @import \"layout/layout\";"; }
+  content: "Error: File to import not found or unreadable: helpers.scss.\A        Load path: C:/Users/marco/Desktop/Web/SMACSS-Workshop/sass\A         on line 2 of C:/Users/marco/Desktop/Web/SMACSS-Workshop/sass/base/_base.scss\A         from line 1 of C:\Users\marco\Desktop\Web\SMACSS-Workshop\sass\styles.scss\A \A 1: @import \"base/base.scss\";\A 2: @import \"layout/layout\";"; }
