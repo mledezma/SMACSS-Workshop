@@ -1,0 +1,35 @@
+.slider-controls{
+    background-color: #2e2e2e;
+
+    ul {
+        display: table;
+        margin: 0 auto;
+        padding-top: 10px;
+        text-align: center;
+    };
+
+    li {
+        border-top: 10px solid #000;
+        display: table-cell;
+
+        a {
+            display: block;
+            padding-bottom: 20px;
+            text-decoration: none;
+        };
+
+        h3 {
+            color: #fff;
+            font-size: 18px;
+        };
+
+        p {
+            color: #adadad;
+            font-size: 12px;
+        };
+    };
+
+    .selected {
+        border-top: 10px solid #57c5a0;
+    };
+};

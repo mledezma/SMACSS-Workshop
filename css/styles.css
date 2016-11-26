@@ -1,4 +1,4 @@
-h1, h2, p, li, button, div {
+h1, h2, p, li, button, div, ul {
   margin: 0;
   padding: 0; }
 
@@ -47,6 +47,29 @@ h1, h2, p, li, button, div {
     width: 42px; }
   .tools img {
     width: 100%; }
+
+.slider-controls {
+  background-color: #2e2e2e; }
+  .slider-controls ul {
+    display: table;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center; }
+  .slider-controls li {
+    border-top: 10px solid #000;
+    display: table-cell; }
+    .slider-controls li a {
+      display: block;
+      padding-bottom: 20px;
+      text-decoration: none; }
+    .slider-controls li h3 {
+      color: #fff;
+      font-size: 18px; }
+    .slider-controls li p {
+      color: #adadad;
+      font-size: 12px; }
+  .slider-controls .selected {
+    border-top: 10px solid #57c5a0; }
 
 .slider {
   background-image: url("../img/slider1.jpg");
