@@ -2,6 +2,9 @@ h1, h2, p, li, button, div, ul {
   margin: 0;
   padding: 0; }
 
+body {
+  background-color: #fff; }
+
 .clearfix {
   overflow: auto;
   zoom: 1; }
@@ -27,8 +30,9 @@ h1, h2, p, li, button, div, ul {
   width: 70px; }
 
 .big-desc {
+  background-color: rgba(237, 236, 231, 0.6);
   float: right;
-  padding: 70px 40px 90px 0;
+  padding: 70px 40px 90px;
   width: 40%; }
 
 .big-desc h2 {
@@ -40,7 +44,7 @@ h1, h2, p, li, button, div, ul {
 
 .tools {
   margin-top: 15px; }
-  .tools button {
+  .tools a {
     background-color: #fafaf9;
     border: none;
     height: 42px;
@@ -68,11 +72,13 @@ h1, h2, p, li, button, div, ul {
     .slider-controls li p {
       color: #adadad;
       font-size: 12px; }
-  .slider-controls .selected {
-    border-top: 10px solid #57c5a0; }
 
 .slider {
-  background-image: url("../img/slider1.jpg");
+  background-color: #000;
+  background-image: url("../img/slider0.jpg");
   background-repeat: no-repeat; }
+
+.is-selected {
+  border-top: 10px solid #57c5a0 !important; }
 
 /*# sourceMappingURL=styles.css.map */
