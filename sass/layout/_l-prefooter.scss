@@ -1,4 +1,17 @@
 @import "l-vendors";
-@import "../modules/m-text-widget";
 @import "../modules/m-newsletter";
 @import "../modules/m-media";
+
+.l-prefooter {
+	float: left;
+    font-style: italic;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.bottom-bordering {
+	border-bottom: 1px solid #000;
+    float: left;
+    margin-bottom: 40px;
+    width: 100%;
+}

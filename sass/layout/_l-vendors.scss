@@ -1,2 +1,19 @@
-@import "../modules/m-flickr-widget";
+@import "../modules/m-text-widget";
 @import "../modules/m-twitter-widget";
+@import "../modules/m-flickr-widget";
+
+.l-vendors {
+	overflow: hidden;
+	max-width: 960px;
+	margin: 0 auto 40px auto;
+	h4{
+		text-transform: uppercase;
+		color: #7d7d7d;
+	}
+}
+
+.l-vendors > div {
+	float: left;
+	margin-top: 50px;
+	max-width: 260px;
+}
