@@ -44,6 +44,8 @@ body {
 
 .tools {
   margin-top: 15px; }
+  .tools button {
+    cursor: pointer; }
   .tools a {
     background-color: #fafaf9;
     border: none;

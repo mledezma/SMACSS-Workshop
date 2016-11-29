@@ -10,9 +10,9 @@ var slider = function(){
         var liIndex = $(this).closest('li').index();
         $('.is-selected').removeClass('is-selected');
         $(this).closest('li').addClass('is-selected');
-        $('.slider').fadeOut('slow', function(){
+        $('.slider').fadeOut('100', function(){
             $('.slider').css('background-image', 'url("img/slider' + liIndex + '.jpg")');
-            $('.slider').fadeIn('slow', function(){
+            $('.slider').fadeIn('100', function(){
                 $('.slider').css('background-image', 'url("img/slider' + liIndex + '.jpg")');
             });
         });
