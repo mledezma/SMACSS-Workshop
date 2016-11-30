@@ -4,3 +4,8 @@
 @import "../modules/m-nav";
 @import "../modules/m-wishlist";
 @import "../modules/m-cart";
+
+header {
+	background-color: $medium-black;
+	padding: 12px 0;
+}

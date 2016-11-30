@@ -1,0 +1,12 @@
+nav {
+    float: left;
+    margin-left: 252px;
+    padding: 28px 0;
+}
+
+nav > a {
+    color: $medium-black;
+    font: 16px $title-font;
+    margin-right: 44px;
+    text-decoration: none;
+}

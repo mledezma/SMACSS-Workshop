@@ -19,6 +19,54 @@ body {
   width: 65%;
   margin: 0 auto; }
 
+.logo {
+  display: inline;
+  float: left;
+  margin-left: 231px; }
+
+.search {
+  position: relative;
+  left: 607px; }
+
+.header-wrapper > a {
+  color: #4F4F4F;
+  float: right;
+  font: 11px "aller", sans-serif;
+  margin-right: 250px;
+  text-decoration: none; }
+
+nav {
+  float: left;
+  margin-left: 252px;
+  padding: 28px 0; }
+
+nav > a {
+  color: #242424;
+  font: 16px "aller", sans-serif;
+  margin-right: 44px;
+  text-decoration: none; }
+
+.wish-list {
+  border-right: 1px solid #ADADAD;
+  padding: 25px 18px 20px;
+  display: inline;
+  position: relative;
+  top: 24px;
+  left: 162px; }
+
+.wish-list > p {
+  background-color: #ADADAD;
+  border-radius: 8px;
+  display: inline;
+  color: white;
+  padding: 6px;
+  margin: 8px;
+  left: 25px; }
+
+header {
+  background-color: #242424;
+  padding: 12px 0; }
+
 .price {
   background-color: #57c5a0;
   box-sizing: border-box;
