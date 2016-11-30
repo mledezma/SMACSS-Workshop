@@ -3,7 +3,8 @@ h1, h2, p, li, button, div, ul {
   padding: 0; }
 
 body {
-  background-color: #fff; }
+  background-color: #fff;
+  font-family: "aller", sans-serif; }
 
 .clearfix {
   overflow: auto;
@@ -79,6 +80,80 @@ body {
   background-color: #000;
   background-image: url("../img/slider0.jpg");
   background-repeat: no-repeat; }
+
+.shoes-tittle {
+  margin-top: 30px;
+  font-weight: normal;
+  float: left; }
+
+.btn-show {
+  margin-top: 16px;
+  color: #bcb5a7;
+  border: 1px solid #bcb5a7;
+  box-sizing: border-box;
+  float: right;
+  padding: 1.6% 2.12%; }
+
+.shoes {
+  margin-top: 25px; }
+
+.items {
+  background-color: #FFF;
+  display: inline;
+  float: left;
+  margin-left: 2.12%;
+  position: relative;
+  width: 31.9%; }
+  .items img {
+    width: 100%; }
+
+.items:first-child {
+  margin-left: 0; }
+
+.item-brand {
+  background-color: #fff;
+  border-top: 2px solid #ccc;
+  padding: 5% 0% 5% 30%;
+  width: 70%; }
+
+.item-menu {
+  background-color: #fff;
+  border-top: 2px solid #ccc;
+  padding: 5% 0% 5% 30%;
+  width: 70%; }
+
+.price {
+  position: absolute;
+  top: 191px;
+  left: 2%; }
+
+.onsale {
+  background-color: #000;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 13px;
+  font: bold 13px 'Arial', sans-serif;
+  height: 70px;
+  padding: 27px 0;
+  text-align: center;
+  width: 70px;
+  position: absolute;
+  top: 0;
+  left: 72%; }
+
+.outstock {
+  background-color: #f27e4b;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 13px;
+  font: bold 13px 'Arial', sans-serif;
+  height: 70px;
+  padding: 27px 0;
+  text-align: center;
+  width: 70px;
+  position: absolute;
+  top: 0;
+  left: 72%; }
 
 .m-flickr-widget {
   margin-right: 50px; }
