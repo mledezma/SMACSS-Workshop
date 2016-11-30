@@ -30,6 +30,9 @@ body {
   text-align: center;
   width: 70px; }
 
+.slider-price.price {
+  position: static; }
+
 .big-desc {
   background-color: rgba(237, 236, 231, 0.6);
   float: right;
