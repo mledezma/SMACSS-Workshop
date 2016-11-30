@@ -1,3 +1,26 @@
 @import "l-prefooter";
 @import "../modules/m-copy";
 @import "../modules/m-footer-nav";
+
+@import "l-prefooter";
+@import "../modules/m-copy";
+@import "../modules/m-footer-nav";
+
+footer {
+	background-color: #242424;
+	color: #a4a4a4;
+
+	p {
+		font-size: 12px;
+		font-family: 'Allerta', sans-serif;
+	}
+}
+
+.l-endfooter {
+    background-color: #2e2e2e;
+
+}
+
+.l-endfooter2 {
+	padding: 30px 0;
+}

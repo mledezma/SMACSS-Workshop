@@ -1,2 +1,16 @@
 @import "../modules/m-flickr-widget";
 @import "../modules/m-twitter-widget";
+
+.l-vendors {
+	margin: 0 auto 40px;
+	h4{
+		text-transform: uppercase;
+		color: #7d7d7d;
+	}
+}
+
+.l-vendors > div {
+	float: left;
+	margin-top: 50px;
+	max-width: 240px;
+}

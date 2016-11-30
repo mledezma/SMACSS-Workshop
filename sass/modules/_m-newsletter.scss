@@ -1,0 +1,21 @@
+.prefooter2 {
+	clear: both;
+    overflow: hidden;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.m-newsletter {
+	float: left;
+	margin-left: 50px;
+	input{
+		background-color: #2e2e2e;
+		border: 0;
+		float: left;
+		height: 34px;
+		padding-left: 10px;
+	}
+	img {
+		float: left;
+	}
+}
