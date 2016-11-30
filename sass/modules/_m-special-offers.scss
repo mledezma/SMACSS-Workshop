@@ -1,0 +1,26 @@
+.special-offers {
+	background-color: #242424;
+}
+
+.special-offers {
+
+	li {
+		float: left;
+		margin: 20px 0 25px;
+		position: relative;
+	}
+
+	img {
+		width: 90%;
+	}
+}
+
+.special-offers-promo {
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px;
+}

@@ -15,7 +15,6 @@
 
 .shoes {
 	margin-top: 25px;
-
 }
 
 .items {
@@ -57,21 +56,15 @@
 }
 
 .onsale {
-	@include lable-price(#000,$height:70px,$width:70px);
+	@include label-price(#000, 70px, 70px, 27px);
 	position: absolute;
 	top:0;
 	left:72%;
 }
 
 .outstock {
-	@include lable-price(#f27e4b,$height:70px,$width:70px);
+	@include label-price(#f27e4b, 70px, 70px, 27px);
 	position: absolute;
 	top:0;
 	left:72%;
-}
-
-//state
-.items:hover {
-
-
 }

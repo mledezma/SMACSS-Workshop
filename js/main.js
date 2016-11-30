@@ -6,7 +6,8 @@ $(document).ready(function() {
 var slider = function(){
     var controls = $('.slider-controls').find('li');
     controls.first().addClass('is-selected');
-    controls.on('click', 'a', function(){
+    controls.on('click', 'a', function(event){
+        event.preventDefault();
         var liIndex = $(this).closest('li').index();
         $('.is-selected').removeClass('is-selected');
         $(this).closest('li').addClass('is-selected');

@@ -1,11 +1,11 @@
-@mixin lable-price($background,$height:70px,$width:70px) {
+@mixin label-price($background,$height, $width, $padding) {
 	background-color: $background;
     box-sizing: border-box;
     color: #fff;
     font-size: 13px;
     font: bold 13px 'Arial', sans-serif;
     height: $height;
-    padding: 27px 0;
+    padding: $padding 0;
     text-align: center;
     width: $width;
 }

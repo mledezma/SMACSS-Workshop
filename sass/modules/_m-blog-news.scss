@@ -1,0 +1,28 @@
+.box-info.blog-news {
+	background-color:#dfdbd4;
+	font-size: $font-size-addon;
+	margin-right: 0;
+	width: 50%;
+}
+.info {
+	margin-bottom: 12px;
+}
+
+.info > p {
+	@include label-price($light-blue, 35px, 35px, 3px);
+
+	float: left;
+	margin-right: 10px;
+}
+
+.blog-news > h3 {
+	text-transform: uppercase;
+}
+
+.info-date {
+	display: inline;
+}
+
+.info-date > h4 {
+	text-transform: uppercase;
+}
